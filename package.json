@@ -1,0 +1,32 @@
+{
+  "name": "ecfio",
+  "version": "0.0.0",
+  "description": "glue for projects like ino and dotc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'yay'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wraithan/ecfio-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "ino",
+    "arduino",
+    "dotc"
+  ],
+  "bin": {
+    "ecfio": "./bin/ecfio"
+  },
+  "author": "Wraithan <xwraithanx@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wraithan/ecfio-cli/issues"
+  },
+  "dependencies": {
+    "optimist": "~0.6.0",
+    "through": "~2.3.4",
+    "fs-extra": "~0.8.0"
+  }
+}
